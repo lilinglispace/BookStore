@@ -1,0 +1,41 @@
+<include file="Public:header"/>
+<link href="__PUBLIC__/Home/css/page.css" rel="stylesheet" type="text/css" />
+<script>
+$(function(){
+	$('.list li:nth-child(4n)').css('margin-right','0');
+});
+</script>
+
+
+<!--当前位置代码-->
+<div class="zi_title">
+ <span><a href="{:U('Home/Index/index')}">首页</a></span>
+ <span>&nbsp;>&nbsp;</span>
+ <span>{$bookcate.name}</span>
+</div>
+
+<div class="sha_type">
+<ul>
+<li class="this_type">
+<a href="{:U('home/goods/book',array('id'=>$bookcate['id']))}">全部</a>
+</li>
+<volist id="vo" name="sonbook">
+<li><a href="{:U('home/goods/book',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+</volist>
+</div>
+<!--  小说列表展示 -->
+<div class="list">
+ <ul>
+	 <foreach name="book" item="goods">
+		 <li>
+		 	<p class="list_img"><a href="{:U('Home/Goods/detail',array('id'=>$goods['id'],'isbn'=>$goods['isbn']))}"><img src="__PUBLIC__/Upload/Admin/Goods/{$goods.img}"></a></p>
+		 	<p class="list_word">{$goods.name}</p>
+		 	<p class="price"><strike>￥{$goods.price}</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span>￥{$goods.price_hot}</span></p>
+		 </li>
+	 </foreach>
+ </ul>
+ <div id="page">
+ {$page}
+ </div>
+</div>
+<include file="Public:footer"/>

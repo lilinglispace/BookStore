@@ -1,0 +1,24 @@
+<include file="Public:header"/>
+<script>
+$(function(){
+	$('.list li:nth-child(4n)').css('margin-right','0');
+	});
+});
+</script>
+<div style="height:20px;"></div>
+<div class="list">
+ <ul>
+  <?php foreach ($goods as $k => $v): ?>
+ 
+  <li>
+  <p class="list_img"><a href="{:U('Home/Goods/detail',array('id'=>$vo['id'],'isbn'=>$vo['isbn']))}"><img src="<?php echo IMG_URL . $v['goods_img']; ?>" /></a></p>
+  <p class="list_word">{$v.goods_name}</p>
+  <p class="price"><strike>￥{$v.original_price}</strike>&nbsp;&nbsp;&nbsp;&nbsp;<span>￥{$v.price}</span></p>
+  </li>   
+  <?php endforeach ?>
+ </ul>
+</div>
+<div class="page">
+{$page}
+</div>
+<include file="Public:footer"/>

@@ -1,0 +1,32 @@
+<include file="Public:header"/>
+<div class="user_content">
+<include file="Person:left"/>
+    <div class="user_right">
+       <div class="youbu">
+    <div class="user-xin"><p>我的信息</p></div>
+     <form enctype="multipart/form-data" action="{:U('home/person/editmine')}" method="post" name="theForm"> 
+    <div class="user-tou">
+        <ul>
+            <li class="toul"><img src="__PUBLIC__/Upload/Admin/User/{$user.img}"></li>
+            <li class="tour">
+                <h4 name="mine">{$Think.cookie.username}</h4>
+                <span>上传头像</span> <input type="file" name="img"/>
+                             
+            </li>
+        </ul>
+    </div>
+
+            <div class="user-biao">
+            <p><span>用户名：</span><input type="text" class="ming-txt" name="username" readonly value="{$user.username}"></p>
+            <p><span>邮箱：</span><input type="email" class="ming-txt" name="email" value="{$user.email}"></p>
+            <p><span>电话：</span> <input type="text" class="ming-txt" name="tel" value="{$user.tel}"> 
+            </div>
+            <div class="baoxiu">
+                <input type="submit" class="txt-bao" value="保存">
+            </div>
+        </form>
+
+    </div>
+    </div>
+</div>
+<include file="Public:footer"/>

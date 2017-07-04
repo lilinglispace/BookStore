@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="__PUBLIC__/Home/js/layer.js" ></script>
+	<link rel="stylesheet" type="text/css" href="layer.css">
+</head>
+<body>
+
+<include file="Public:header"/>
+
+<!-- 主体部分 start -->
+	<div class="mycart">
+		<h2>我的购物车</h2>
+		<table>
+		<form method="post" action="{:U('Home/buy/submit')}" >
+		<input type="hidden" name="userid" value="" >
+
+			<thead>
+				<tr>
+					<th class="col7">选择</th>
+					<th class="col1">商品名称</th>
+					<th class="col2">商品信息</th>
+					<th class="col3">单价</th>
+					<th class="col4">数量</th>	
+					<th class="col5">小计</th>
+					<th class="col6">操作</th>
+				</tr>
+			</thead>		
+				<tbody>
+					<foreach name="cart" item="vo">
+						<tr>
+
+							<td><input type="checkbox" name="id[]" value="{$vo.id}" onclick="getSum()" /></td>
+							<td class="col1">
+								<a href=""><img src="__PUBLIC__/Upload/Admin/Goods/{$vo['goods_img']}" /></a> 
+								<a href="" class="cword">{$vo.goods_name}</a>
+
+							</td>
+							<td class="col2">
+								<p>正版</p>
+							</td>
+							<td class="col3">￥<span>{$vo.price_hot}</span></td>
+							<td class="col4"> 
+								<span>
+								
+									<a href="{:U('home/cart/desr',array('id'=>$vo['goods_id']))}">
+									 <input type="button" value="-" id="min_num" /> 
+									 </a>
+								   <input name="num" type="text" value="{$vo['num']}" id="show_num"  />
+								    
+								   
+								    	<a href="{:U('home/cart/add',array('id'=>$vo['goods_id']))}">
+								    	 <input type="button" value="+" id="add_num" /> 
+								     </a>
+						
+								</span>
+							</td>
+							<td class="col5">￥<span>{$vo['num']*$vo['price_hot']}</span></td>
+							<td class="col6">
+								<a href="{:U('home/cart/del',array('id'=>$vo['id']))}" onclick="return del()">删除</a>
+							</td>
+						</tr>
+					</foreach>
+				</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="7">合计： <strong>￥<span id="total">0</span></strong></td>
+					<input type="hidden" name="totalmoney" id="totalmoney" value=""></input>
+				</tr>
+			</tfoot>
+
+			</table>				
+
+		<div class="cart_btn">
+			<a href="{:U('Home/Index/index')}" class="continue">继续购物</a>
+			<input type="submit" class="checkout" value="结算" />
+		</div>
+		</form>
+	</div>
+<script>
+/*
+function fn(e){
+	var button = $(e);
+	var number = button.siblings("input[name=num]");
+	var num_val = parseInt(number.val());
+	if(button.val()=='-'){
+		num_val = num_val-1;
+	}
+	if(button.val()=='+'){
+		num_val = num_val+1
+	}
+	//做是否删除的判断
+	if(num_val==0){
+		
+		del(e);
+
+	}
+	number.val(num_val);
+	var tr = number.parent().parent();
+	var goodsid = tr.find("input[type=checkbox]").val();
+	var price = tr.find(".col3>span").text();
+	var totle = num_val*Number(price);
+	tr.find(".col5").find("span").text(totle);
+	getSum();
+
+}
+*/
+function getSum(){
+	var sum = 0;
+	//循环计算得出结算的
+
+	$.each($("tbody>tr"),function(i,n){
+		var checkbox = $(n).find("input[type=checkbox]");
+		console.log(checkbox.is(":checked"));
+		if(checkbox.is(":checked")){
+			//var price = $(n).find(".col3>span").text();
+			//var num = $(n).find(".col4 input[name=num]").val();
+			sum = sum +Number($(n).find(".col5>span").text());
+		}
+	})
+	$("#total").text(sum);
+	$("#totalmoney").val(sum);
+}
+
+function del()
+{
+	if(confirm("确认要删除吗？"))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+</script>
+
+<include file="Public:footer"/>

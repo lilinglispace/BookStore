@@ -1,0 +1,155 @@
+<include file="Public:header"/>
+<div class="user_content">
+
+    <div class="user-xin"><p>我的订单</p></div>
+            <div class="jiao-ti">
+            <ul>
+            <li>我的交易提醒：</li>
+              <li>未确认订单<span class="num1">({$order_status})</span></li>
+              <li>待付款<span class="num1">({$pay_status})</span></li>
+              <li>待发货<span class="num1">({$post_status})</span></li>
+              <li>已成交订单数<span class="num1">({$order_status2})</span></li>
+            </ul>
+          </div>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="order-table">
+            <thead>
+              <tr class="col-name">
+                <th width="32%" style="border-left: 1px solid #E6E6E6;">订单号</th>
+                <th width="9%">单价(元)</th>
+                <th width="5%">数量</th>
+                <th width="13%">售后</th>
+                <th width="8%">订单总金额</th>
+                <th width="10%">状态</th>
+                <th width="13%" style="border-right: 1px solid #E6E6E6;">操作</th>
+              </tr>
+            </thead>
+            <foreach name="order" item="item">
+                <tbody class="close-order">
+                      <tr class="order-num">
+                        <td colspan="8"><span class="no">
+                          <label> 订单编号：<span class="order-num">{$item.ord_id}
+                            </span> </label>
+                          
+                          </span> <span class="deal-time">&nbsp;&nbsp;成交时间：{$item.time}</span> </td>
+                      </tr>
+                      <tr class="order-bd last">
+                            <td align="center" class="baobei no-border-right" style="padding:0px;">
+                                  <div class="goods_desc last"> <a class="pic" href="__MODULE__/Index/goods?id={$item['goods_id']}" > 
+                                        <img src="__PUBLIC__/Upload/Admin/Goods/{$item.goods_img}" style="width:50px;height:60px;" /> 
+                                        </a>
+                                        <div class="goods_name">{$item['goods_name']}</div>
+                                  </div>
+                            </td>
+                            <td align="center" class="gxin">                  
+                                    <span>{$item['shop_price']}</span>
+                            </td>
+                            <td align="center">                  
+                                   <span>{$item['goods_num']}</span> 
+                            </td>
+                            <td align="center" class="after-service baobei no-border-right" valign="middle">
+
+                                    <if condition="($item['order_status'] eq 3)">
+                                        已申请退款<br>
+                                        
+                                    </if>
+                                     <if condition="($item['order_status'] eq 4)">
+                                        退货成功<br>
+                                        
+                                    </if>
+                                    <if condition="($item['order_status'] neq 3 and $item['order_status'] neq 4 and $item['order_status'] neq 2)">
+                                        <a href="{:U('home/person/tuihuo',array('ord_id'=>$item['ord_id'],'goods_id'=>$item['goods_id']))}" onclick="return del()">
+                                        退货</a>
+                                          <else/>已完成
+                                    </if>
+                                  
+                     
+                            </td>
+                            <td rowspan="1" align="center" class="amount no-border-right">
+                                    <span>{$item['shop_price']*$item['goods_num']}</span>
+                            </td>
+                            <td rowspan="1" align="center" class="trade-status no-border-right">
+                                    <if condition="($item['order_status'] eq 0)">
+                                        未确认<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 1)">
+                                        已确认<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 2)">
+                                        已完成<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 3)">
+                                        申请退款中<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 4)">
+                                        退货成功<br>
+                                    </if>
+                                    <if condition="($item['pay_status'] eq 0)">
+                                        未付款<br>
+                                    </if>
+                                    <if condition="($item['pay_status'] eq 1)">
+                                        已支付<br>
+                                    </if>
+                                    <if condition="($item['post_status'] eq 0)">
+                                        未发货<br>
+                                    </if>
+                                    <if condition="($item['post_status'] eq 1)">
+                                        已发货<br>
+                                    </if>
+                                    <if condition="($item['post_status'] eq 2)">
+                                        已收货<br>
+                                    </if>
+                                    
+                            </td>
+                            <td rowspan="1" align="center" class="other">
+                                     <if condition="($item['pay_status'] eq 0)">
+                                     <if condition="($item['pay_method'] eq '货到付款')">
+                                        货到付款<br>
+                                     </if>
+                                         
+                                    </if>
+                                    <if condition="($item['order_status'] eq 0)">
+                                        未确认<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 1)">
+                                        已确认<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 2)">
+                                        已完成<br>
+                                         <a href="{:U('home/buy/comment',array('goods_id'=>$item['goods_id']))}"  class="on_money">去评论</a><br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 3)">
+                                        申请退款<br>
+                                    </if>
+                                    <if condition="($item['order_status'] eq 4)">
+                                        退货成功<br>
+                                    </if>
+                                    <if condition="$item['post_status'] eq 1 and $item['order_status'] neq 2">
+                                      <a href="{:U('home/person/acc',array('ord_id'=>$item['ord_id'],'goods_id'=>$item['goods_id']))}"  onclick="if (!confirm('你确实要确认收货吗？')) return false;" >确认收货</a>
+                                    </if>
+
+
+                                   
+                            </td>
+                    </tr>
+                 </tbody>
+            </foreach>
+
+           </table>
+            <div class="page" >{$page }</div>
+    </div>
+
+   <script type="text/javascript">
+  function del()
+  {
+    if(confirm("确认要退货吗？"))
+    {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+</script> 
+<include file="Public:footer"/>
+

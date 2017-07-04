@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+<!--必要样式-->
+<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/css/city-picker.css" rel="stylesheet" type="text/css" />
+<script src="__PUBLIC__/Home/js/bootstrap.js"></script>
+<s
+</head>
+<body>
+    <div class="center_title">
+    <p>当前位置：</p>
+    <!--
+        <p>当前位置：<a href="{:U('Home/Index/index')}"> 首页</a>><span>会员中心</span></p>
+        -->
+    </div>
+    <div class="user_left">
+        <div class="l_top">
+            <dl>
+                <dt>个人中心</dt>
+                <dd><a href="{:U('Home/Person/editmine')}"> 修改个人资料</a></dd>
+                <dd><a href="{:U('Home/Person/cpwd')}">修改密码</a></dd>
+                 <dd><a href="{:U('Home/Address/address')}">管理收货地址</a></dd>
+            </dl>
+            <dl>
+                <dt>订单管理</dt>
+                <dd><a href="{:U('Home/Cart/lst')}">我的购物车</a></dd>
+                <dd><a href="{:U('Home/Person/order')}">我的订单</a></dd>
+
+            </dl>
+           
+        </div>
+    </div>
+
+</body>
+</html>

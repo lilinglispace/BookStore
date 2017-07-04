@@ -1,0 +1,1580 @@
+[ 2017-05-17T20:55:33+08:00 ] ::1 /book/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:55:35+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:55:52+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ad` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:55:53+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:56:06+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ad` WHERE `name` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:56:07+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:56:22+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad` WHERE `name` = 'liuwei' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:56:23+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:56:34+08:00 ] ::1 /book/index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad` WHERE `name` = 'liuwei' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-17T20:56:35+08:00 ] ::1 /book/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:56:35+08:00 ] ::1 /book/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:56:35+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T20:56:35+08:00 ] ::1 /book/index.php/admin/index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:skin
+
+[ 2017-05-17T20:56:36+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T20:56:36+08:00 ] ::1 /book/index.php/admin/index/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:lib
+
+[ 2017-05-17T20:57:00+08:00 ] ::1 /book/index.php/admin/order/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ordgoods`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:58:14+08:00 ] ::1 /book/index.php/admin/order/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ordgoods`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:58:17+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `post`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:58:19+08:00 ] ::1 /book/index.php/admin/cate/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\CateController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cate`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:58:20+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:59:00+08:00 ] ::1 /book/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:59:00+08:00 ] ::1 /book/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T20:59:01+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T20:59:01+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T20:59:01+08:00 ] ::1 /book/index.php/admin/index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:skin
+
+[ 2017-05-17T20:59:02+08:00 ] ::1 /book/index.php/admin/index/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:lib
+
+[ 2017-05-17T20:59:03+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:59:07+08:00 ] ::1 /book/index.php/Admin/Goods/show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T20:59:11+08:00 ] ::1 /book/index.php/Admin/Goods/show/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 20,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:04:16+08:00 ] ::1 /book/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T21:04:16+08:00 ] ::1 /book/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:04:16+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T21:04:16+08:00 ] ::1 /book/index.php/admin/index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:skin
+
+[ 2017-05-17T21:04:17+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T21:04:17+08:00 ] ::1 /book/index.php/admin/index/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:lib
+
+[ 2017-05-17T21:04:21+08:00 ] ::1 /book/index.php/admin/post/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:04:22+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `post`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-17T21:04:25+08:00 ] ::1 /book/index.php/admin/order/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ordgoods`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:07:14+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:08:43+08:00 ] ::1 /book/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:08:43+08:00 ] ::1 /book/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:08:43+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T21:08:43+08:00 ] ::1 /book/index.php/admin/index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:skin
+
+[ 2017-05-17T21:08:44+08:00 ] ::1 /book/index.php/admin/index/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:css
+
+[ 2017-05-17T21:08:44+08:00 ] ::1 /book/index.php/admin/index/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:lib
+
+[ 2017-05-17T21:08:47+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:08:55+08:00 ] ::1 /book/index.php/admin/cate/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\CateController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cate` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:10:46+08:00 ] ::1 /book/index.php/admin/user/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\UserController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant confirm - assumed 'confirm' D:\phpStudy\WWW\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:11:58+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:12:54+08:00 ] ::1 /book/index.php/admin/order/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ordgoods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ordgoods` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ordgoods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:13:08+08:00 ] ::1 /book/index.php/admin/cate/addsmall.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\CateController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cate` WHERE ( p_id=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:13:09+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:13:14+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `post` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:13:19+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:13:29+08:00 ] ::1 /book/index.php/admin/post/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:13:30+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:13:46+08:00 ] ::1 /book/index.php/admin/order/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ordgoods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ordgoods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ordgoods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\955b0d225af1cdc7026163be267bc9c2.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:13:51+08:00 ] ::1 /book/index.php/admin/user/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\UserController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant confirm - assumed 'confirm' D:\phpStudy\WWW\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\6889816975b2b42ac6ff03eb35db7dd4.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:13:54+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 67 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:20:35+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:20:35+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:20:35+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:20:36+08:00 ] ::1 /book/index.php/admin/ad/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\AdController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\AdController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ad` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\c726bc76d0068fb53ba2afca7c135a71.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:20:37+08:00 ] ::1 /book/index.php/admin/cate/addsmall.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\CateController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cate` WHERE ( p_id=0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:20:38+08:00 ] ::1 /book/index.php/admin/cate/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\CateController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cate` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cate` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cate` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\b58e48ffd8fe093154b71930b48d075d.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T21:20:40+08:00 ] ::1 /book/index.php/admin/goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:20:43+08:00 ] ::1 /book/index.php/Admin/Goods/show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\GoodsController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\8b64fe73aacfdb56c2aee2fa58128a6c.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-17T21:22:34+08:00 ] ::1 /book/index.php/admin/post/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PostController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\book\Application\Admin\Controller\PostController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `post` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 31 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 31 行.
+NOTIC: [8] Use of undefined constant p - assumed 'p' D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 31 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\book\Application\Runtime\Cache\Admin\bca40c00dfea837113a03bc2a12f5c99.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

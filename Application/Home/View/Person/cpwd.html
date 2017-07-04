@@ -1,0 +1,21 @@
+<include file="Public:header"/>
+<div class="user_content">
+
+   <include file="Person:left"/>
+   <div class="user_right">
+       <div class="youbu">
+    <h4>修改登录密码</h4>
+        <div class="yan-tab">
+            <form action="{:U('home/person/cpwd')}" method="post">
+                <p>已验证用户名：{$Think.cookie.username}</p>
+                <p>请输入原密码 : <input type="password" class="jiaoyan" placeholder="请输入原密码" name="npwd" value=""></p>
+                <p>请输入新密码 : <input type="password" class="jiaoyan" placeholder="请输入新密码" name="newpwd" value=""></p>
+                <p>请确认新密码 : <input type="password" class="jiaoyan" placeholder="请确认新密码" name="renewpwd" value=""></p>
+                <p><input type="submit" class="sure-pass" value="确认修改"></p>
+                <input type="hidden" name="id" value="{$Think.cookie.userid}">
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+<include file="Public:footer"/>

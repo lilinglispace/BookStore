@@ -1,0 +1,381 @@
+
+
+.order_hd{width: 980px; border: 1px solid #e6e6e6; overflow: hidden;}
+.order_hd h3{height: 33px; line-height: 33px; border-bottom: 2px solid #c30; font-size: 14px; color:#cc0000; margin-bottom: 8px; font-weight: bold; padding-left: 20px;}
+.order_hd dl{width:980px; clear: both;}
+.order_hd dt{float: left; display: inline; padding-left: 20px; line-height: 25px;}
+.order_hd dd{float: left; display: inline;line-height: 25px; padding-right: 7px; color: #999;}
+.order_hd dd a{color: #005ea7;}
+/*.bg {
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 1;
+    position: fixed!important;
+    position: absolute;
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+#bg{
+	display: none;
+}*/
+
+.order{width:1100px;margin:auto;background: #fff;}
+.mycart1 h2{width: 190px; height: 50px; }
+.mycart1 h2 span{display: none;}
+.address,.ord_goods{
+	width: 100%;
+	float: left;
+	min-height: 100px;
+	background-color: white;
+	border-top: 1px solid #ccc;
+ 
+}
+h3{
+	font-size: 19px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.add_form{
+	width: 90%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 50px;
+}
+#add_form{
+	display: block;
+}
+.add_info{
+	width: 100%;
+	height: 50px;
+	float: left;
+
+}
+.add_form label{
+	width: 100px;
+	height: 50px;
+	float: left;
+
+}
+.add_form  input,.add_form select{
+	line-height: 30px;
+	margin-top: 10px;
+}
+.add_form select{
+	height: 30px;
+	width: 150px;
+	margin-right: 20px;
+}
+#road,#email{
+	width: 500px;
+}
+.add_btn{
+	height: 80px;
+	margin-left: 40%;
+	float: left;
+}
+.AddressButton {
+    background: #e31939;
+    color: #fff;
+    height: 28px;
+    width: 70px;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.goods_tab{
+	width: 96%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+	line-height: 50px;
+}
+.checkgoods{
+	width: 100%;
+	border: 1px solid #ccc;
+    margin-top: 10px;
+    float: left;
+     border-top:1px solid #ccc;
+}
+.checkgoods th{
+	background: #f0f0f0;
+    padding: 8px 10px;
+    font-weight: normal;
+}
+.goods_tab table{width:100%;border: 1px solid #e6e6e6; border-top:2px solid #FFCCAA;}
+
+.goods_tab table thead th{height: 30px; line-height: 30px; background: url("../images/tb_th.gif") 0 0 repeat-x; color:#666; text-align: center;}
+.goods_tab table tbody td{border-bottom:1px dotted #cccccc; text-align: center; padding: 10px 0;height: 100px}
+.goods_tab table tbody td img{width: 80px; height: 80px; border:1px solid #e1e1e1;float: left;margin-left: 20px;}
+.goods_tab table tbody td a{color: #005ea7;}
+.payment_tab{
+	width: 96%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+	line-height: 50px;
+	border:1px solid #ccc;
+	border-bottom: none;
+}
+.payment{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.payment input{
+	float: left;
+	line-height: 50px;
+	margin-left: 20px;
+	margin-top: 18px;
+	margin-bottom: auto;
+}
+.payment b{
+	margin-left: 20px;
+	font-size: 14px;
+}
+.address_check{
+	height: 118px;
+	width:225px;
+	float: left;
+	background: url(../image/bg_address.gif);
+	margin-bottom: 20px;
+}
+.address_list{
+	height: 118px;
+	width:225px;
+	float: left;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.address_link{
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	width: 90%;
+	float: left;
+}
+.address_link a{
+	color: red;
+	float: right;
+	margin-left: 20px;
+	line-height: 30px;
+}
+.new_btn{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.address_jm_add {
+    float: left;
+    border: 1px solid #ccc;
+    text-indent: 22px;
+    width: 93px;
+    height: 27px;
+    line-height: 28px;
+    background: url(../image/add_btn_address.jpg) no-repeat 0 0;
+    cursor: pointer;
+}
+.mydiv {
+
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 99999;
+    width: 650px;
+    min-height: 400px;
+    left: 50%;
+    top: 50%;
+   /* margin-left: -325px!important;
+    margin-top: -200px!important;*/
+    margin-top: 0px;
+    -webkit-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+    /*position: fixed!important;
+    position: relative;
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);*/
+}
+#mydiv{
+	display: none;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.mydiv-l {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    background: #faf7f8;
+    text-indent: 20px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: normal;
+    height: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #ff3300;
+}
+.mydiv-r {
+    position: absolute;
+    width: 40px;
+    background: url(../image/cart_pop_close.png) no-repeat 0 0;
+    /*top: -10px;
+    left: 300px;*/
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+#PopAddressCon {
+    font-size: 12px;
+
+}
+.mydiv table td {
+    line-height: 40px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.mydiv table tr {
+    line-height: 40px;
+    text-align: left;
+    font-weight: normal;
+}
+.mydiv td,.mydiv th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.input_addr2 {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr1 {
+    width: 477px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr3 {
+    width: 100px;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.input_addr2_t {
+    width: 150px;
+}
+.input_addr4 {
+    width: 50px;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px #ddd solid;
+}
+.BonusButton {
+    background: #e31939;
+    color: #fff;
+    height: 28px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.Button_reset {
+    background: #eee;
+    color: #a1a1a1;
+    height: 28px;
+    width: 70px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.address_info{
+	width: 100%;
+	float: left;
+}
+.address_info span{
+	width: 80%;
+	margin-left: 10%;
+	line-height: 25px;
+	float: left;
+}
+.block {
+    width: 988px;
+    height: auto;
+    background-color: white;
+}
+/*div {
+    margin: 0 auto;
+    padding: 0;
+}*/
+body {   
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 150%;
+    padding: 0;
+    color: #404040;
+}
+h6 {
+    color: #d9c0a0;
+}
+h6 {
+    height: 23px;
+    line-height: 23px;
+    text-align: right;
+    font-size: 17px;
+}
+.flowBox table {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.flowBox table {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.flowBox table tr td {
+    color: #8e6a55;
+    border: none;
+
+}
+
+.post{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+.post_list{
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+}
+.best_time{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.best_title{
+    margin-left: 40px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>遇见书城</title>
+<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<!--导航代码开始-->
+<div class="top">
+   <div class="top-mid">
+     <div class="top-midl"><p>书有未曾经我读，事无不可对人言。</p></div>
+     <div class="top-midr">
+       <ul>
+      <li id="logInfo">
+      <if condition="che()"><a href="{:U('home/person/information')}">欢迎您{$Think.cookie.username}</a>&nbsp;|&nbsp;<a href="{:U('home/user/loginout')}">退出</a><else/><a href="{:U('Home/User/login')}" >登录</a><a href="{:U('Home/User/reg')}" >注册</a></if>
+      </li>
+      <input type="hidden" name="userid" value="{$Think.cookie.userid}" />
+
+      <li>
+      <if condition="$Think.cookie.userid neq ''"><a href="{:U('home/person/order')}">订单</a><else/><a href="{:U('home/user/login')}">订单</a></if>
+      </li>
+      <li class="cart">
+      <if condition="$Think.cookie.userid neq ''"><a href="{:U('home/cart/lst')}"><img src="__PUBLIC__/Home/images/che.png"></a><else/><a href="{:U('home/user/login')}"><img src="__PUBLIC__/Home/images/che.png"/></a></if>
+      </li>
+      </ul>
+     </div>
+   </div>
+</div>
+<div class="nav">
+    <div class="nav_content">
+    <div class="logo"><a href="{:U('Home/Index/index')}"><img src="__PUBLIC__/Home/images/1.jpg" /></a></div>
+    <div class="nav_left">
+    <ul>
+    <li><a href="{:U('Home/Index/index')}">首页</a></li>
+    <foreach name="cate" item="vo">
+      <li><a href="{:U('home/goods/book',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+    </foreach>
+    </ul>
+    </div>
+    <div class="nav_right">
+   <form action="{:U('home/index/search')}" method="post">
+
+     <li><input type="text"  name="search" class="find1" placeholder="书籍名称" /></li>
+     <li class="soto"><input type="submit" class="sub" value="搜索" /></li>
+   </form>
+    </div>
+    </div>
+</div>
+<!--返回顶部-->
+
+<div class="back-top" id="btun"><img src="__PUBLIC__/Home/images/icon.png"></div>
+<!--返回顶部-->
+<script src="__PUBLIC__/Home/js/jquery-1.11.3.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/index.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/js/jquery.superslide.2.1.1.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<include file="Public:header"/>
+<!--导航代码开始-->
+
+
+
+<div class="comment-pin">
+  <div class="commentl">
+    <img src="__PUBLIC__/Upload/Admin/Goods/{$goods.img}">
+    <h3>{$goods.name}</h3>
+    <p>价格：￥{$goods.price_hot}</p>
+    
+  </div>
+<form action="{:U('home/buy/comment')}" method="post" id="commentFrom">
+  <div class="commentr">
+  <h3>书籍评价<span>请写下你的建议!</span></h3>
+  <div class="commentr-con">
+    <div class="comment-word">商品评价：</div>
+    <div class="comment-text"><textarea name="content" id="content">{$comment.content}</textarea></div>
+    <input type="hidden" name="goods_id" value="{$goods.id}" />
+  </div>
+  <div style="height:20px;clear:both;"></div>
+
+  <div class="comment-btn"><input type="submit" value="确认提交" class="commentbtn"/></div>
+  </div>
+  </form>
+</div>
+
+<include file="Public:footer"/>

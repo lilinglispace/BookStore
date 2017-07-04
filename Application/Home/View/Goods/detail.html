@@ -1,0 +1,173 @@
+<include file="Public:header"/>
+<link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+
+<!--当前位置代码-->
+
+<div class="chanpin">
+   <div class="tabPanel">
+  <div id="preview">
+  <div class="jqzoom" id="spec-n1"><img src="__PUBLIC__/Upload/Admin/Goods/{$desc.img}" height=400  jqimg="__ROOT__/Uploads/{$picb.pic}" width=400 id="spec_img">
+  </div>
+  <div id="spec-n5">
+    <div class="control" id="spec-left">
+      <img src="__PUBLIC__/Home/images/left.gif" />
+    </div>
+    <div id="spec-list">
+      <ul class="list-h">
+      <volist id="vo" name="pic">
+        <li height="48" width="48"><img src="__PUBLIC__/Upload/Admin/Goods/{$vo.img}" height="48" width="48" class="list-li"> </li>
+      </volist>
+      </ul>
+    </div>
+    <div class="control" id="spec-right">
+      <img src="__PUBLIC__/Home/images/right.gif" />
+    </div>
+    
+    </div>
+</div>
+
+</div>
+<form method="post" action="{:U('home/goods/addcart',array('id'=>$desc['id']))}">
+  <div class="chanpin_right">
+  <div class="chanpinr_ti">
+  <h3><input type="text" name="name" value="{$desc.name}" class="jian" readonly></h3>
+  <input type="hidden" name="img" value="{$desc.img}"/>
+
+  </div>
+  <div class="chanpinr_price">
+  <p><span>原价</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<strike class="del-jia" name="ori_price">{$desc.price}</strike></p>
+  <p><span>会员价</span><span class="price_fuhao">￥</span><input type="text" value="{$desc.price_hot}" class="money" name="price" readonly></span></p>
+  </div>
+<input type="hidden" name="userid" value="{$Think.cookie.userid}">
+  <div class="pin_num">
+    <a class="number" id="goodsNum">数量</a>
+    <input type="button" value="-" id="min_num" onclick="desr()" />
+    <input name="num" type="text" value="1" id="show_num"  />
+    <input type="button" value="+" id="add_num" onclick="add()" />
+    <span></span>
+    <span>{$desc.reserve}本</span>
+  </div>
+  <div class="do_buy">
+    <ul>
+    <li>
+     <a href="" onclick="return cart()"><input type="submit" id="submit" class="cart1" id="addToCart" value="加入购物车"></li></a>
+    </ul>
+  </div>
+  </form>
+  <div class="service">
+   <span class="ensure">服务承诺</span>
+   <span>正品保证</span>
+   <span>按时发货</span>
+   <span>七天无理由退换</span>
+  </div>
+ 
+</div>
+  </div>
+</li></ul></div></div>
+<!-- 产品参数介绍-->
+<div class="canshu">
+
+
+
+<div class="pin_top">
+  <ul>
+   <li class="self"><a href="javascript:;" onclick="toshow()">书本详情</a></li>
+   <li><a href="javascript:;" onclick="show()">累计评价</a></li>
+  </ul>
+</div>
+<div class="huan">
+<div class="pin_data" id="desc" style="display:block;" >
+简介： {$desc.desc}<br/>出版社：{$desc.press}<br/>
+<foreach name="des" item="vo">
+<img src="__PUBLIC__/Upload/Admin/Desc/{$vo.img}">
+</foreach>
+</div>
+
+
+<div class="pin_data" id="comm" style="display: none;">
+<foreach item="show" name="comment">
+   <div class="user-ping">
+    <div class="user-pingl"><p>{$show.username}&nbsp;&nbsp;:</p></div>
+    <div class="user-pingr">
+   <div class="pingr-xuan"><p></p> <p><span>书籍评价：</span>{$show.comment}</p>
+
+   <p style="text-align:right">{$show.time}</p>
+    </div>
+    </div>
+    </div>
+</foreach>
+</div>
+
+
+
+
+</div>
+<script type="text/javascript">
+function toshow()
+{
+  document.getElementById('desc').style.display='block';
+  document.getElementById('comm').style.display='none';
+}
+function show()
+{
+  document.getElementById('desc').style.display='none';
+  document.getElementById('comm').style.display='block';
+}
+//确认是够可以加入购物车
+function cart()
+{
+  if("{$Think.cookie.username}"!=="")
+  {
+    if("{$desc.reserve}">0)
+    {
+      return true;
+    }
+    else
+    {
+      alert('当前库存不足,暂时不可以购买！');
+      return false;
+    }
+  }
+  else
+  {
+    alert('请登录！');
+    return false;
+  }
+}
+//减少订购数目
+function desr()
+{
+  var a=parseInt(document.getElementById('show_num').value);
+  if(a<=1)
+  {
+     document.getElementById('show_num').value=1;
+  }
+  else
+  {
+     document.getElementById('show_num').value=a-1;
+  }
+}
+//增加订购数目
+function add()
+{
+  var a=parseInt(document.getElementById('show_num').value);
+  //若数值等于库存量则不能增加
+  if(a<"{$desc.reserve}")
+  {
+     document.getElementById('show_num').value=a+1;
+  }
+  else
+  {
+     document.getElementById('show_num').value=a;
+  } 
+}
+$(document).ready(function () {
+    $('.list-li').click(function () {
+        $('#spec_img').attr('src','');
+        src=$(this).attr('src');
+        $('#spec_img').attr('src',src);
+
+    })
+});
+</script>
+<include file="Public:footer"/>

@@ -1,0 +1,35 @@
+#page{
+	text-align: center;
+	padding-top: 20px;
+}
+#page .num,.current{
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 2px;
+	margin-left: 4px;
+}
+#page .num{
+	border: 1px solid #5a98de;
+	text-decoration: none;
+}
+#page .current{
+	background-color: #5a98de;
+	color: #fff;
+	border: 1px solid #5a98de;
+}
+#page .prev,#page .next{
+	border: 1px solid #5a98de;
+	text-decoration: none;
+	padding:0 4px;
+}
+	#page .ye{
+		border: 1px solid #a1a1a1;
+		padding:0 4px;
+	}
+	.rows{
+		display: inline-block;
+		margin-right: 10px;
+	}

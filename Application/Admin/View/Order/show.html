@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="__PUBLIC__/Admin/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/page.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+
+<title>订单管理</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 订单管理 <span class="c-gray en">&gt;</span> 订单列表 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="{:U('admin/user/add')}" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+	<div class="mt-20">
+	<table class="table table-border table-bordered table-hover table-bg table-sort">
+		<thead>
+			<tr class="text-c">
+				<th width="3%">ID</th>
+				<th width="5%">用户ID</th>
+				<th width="7%">添加时间</th>
+				<th width="3%">订单状态</th>
+				<th width="3%">支付状态</th>
+				<th width="3%">发货状态</th>
+				<th width="7%">总价格</th>
+				<th width="7%">订单号</th>
+				<th width="8%">发货单号</th>
+				<th width="8%">发货地址</th>
+				<th width="7%">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		<foreach name="show" item="order" key="k">
+			<tr class="text-c">
+				<td>{$k+1+(($_GET[p]?:1)-1)*10}</td>
+				<td>{$order.userid}</td>
+				<td>{$order.time}</td>
+				<td>{$order.order_status}</td>
+				<td>{$order.pay_status}</td>
+				<td>{$order.post_status}</td>
+				<td>{$order['goods_num']*$order['shop_price']}</td>
+				<td>{$order.ord_id}</td>
+				<td>{$order.post_id}</td>
+				<td>{$order.area}</td>
+				<td>
+					<if condition="$order['post_status'] eq 0 and $order['order_status'] neq 3 and $order['order_status'] neq 4">
+						<a href="{:U('admin/order/fa',array('id'=>$order['id']))}">发货</a>
+					</if>
+					<if condition="$order['order_status'] eq 3">
+						<a href="{:U('admin/order/tui',array('id'=>$order['id']))}">确认退款</a>
+					</if>
+					<if condition="$order['order_status'] eq 4 ">
+						已退款
+					</if>
+					<if condition="$order['post_status'] eq 1 ">
+						已发货
+					</if>
+				</td>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div id="page">
+			{$page}
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	function del()
+	{
+		if(confirm("确认要删除吗？"))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+</script>
+</body>
+</html>

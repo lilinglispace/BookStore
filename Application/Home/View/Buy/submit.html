@@ -1,0 +1,117 @@
+<include file="Public:header"/>
+ <div class="menu-submit">
+        <div class="shou-address">
+            <span>确认收货地址</span>
+            <a href="{:U('Home/Address/address')}">管理收货地址</a>
+
+        </div>
+         <form method="post" action="{:U('home/cart/addorder')}"  id="orderform">
+        <div class="user-add">
+           <span>寄送至：</span>
+            <span>{$addr.area}</span>
+           <span>{$addr.desc_area}<span>（{$addr.name} 收）</span>
+           <span>{$addr.tel}</span>
+            <input type="hidden" name="area" value="{$addr.area}" />
+            <input type="hidden" name="desc_area" value="{$addr.desc_area}" />
+            <input type="hidden" name="name" value="{$addr.name}" />
+            <input type="hidden" name="tel" value="{$addr.tel}" />
+        </div>
+        <div class="queren-dan"><p></p></div>
+     <div class="mycart">
+        <p>确认商品信息</p>
+       
+        <table>
+            <thead>
+                <tr>
+                    <th class="col1">商品名称</th>
+                    <th class="col2">商品信息</th>
+                    <th class="col3">单价</th>
+                    <th class="col4">数量</th>    
+                    <th class="col5">小计</th>
+                </tr>
+            </thead>
+            <tbody>
+              <foreach name="cart" item="vo">
+                <tr> 
+                  <input type="hidden" name="id[]" value="{$vo.id}">               
+                   <td class="col1">
+                    <a href=""><img src="__PUBLIC__/Upload/Admin/Goods/{$vo.goods_img}" alt="" /></a> 
+                    <a href=""><input type="text" value="{$vo.goods_name}" readonly class="jiage"/></a>
+                   </td>
+                    <td class="col2"> 
+                    <input type="text" value="包邮" disabled="disabled" class="jiage" />
+                    </td>
+                    <td class="col3">￥<input type="text" value="{$vo.price_hot}" name="price" readonly></td>
+                    <td class="col4"> <input type="text" value="{$vo.num}" class="shu" /></td>
+                    <td class="col5">￥<input type="text" value="{$vo['num']*$vo['price_hot']}" readonly></td>
+                </tr>
+                </foreach>
+            </tbody>                     
+    </table>
+        
+
+    </div>
+        <div class="fu-way">
+        <span>付款方式:&nbsp;&nbsp;</span><input type="radio" name="pay_method" value="货到付款" checked>货到付款
+        </div>
+
+      <div class="post">
+          <p>配送方式</p>
+           <volist name="post" id="vo">
+                  <div class="post_list">
+                    <input type="radio"  name="post_method" value="{$vo.name}" required >
+                    <b> {$vo.name}</b>
+                    (配送费用：<span style="color: red;">0</span>元)
+                  </div>
+           </volist>  
+       </div>
+        <div class="zong-dan">
+            <p>您总共需付款：<span>￥{$totalmoney}</span>
+           <input type="hidden" name="total_price" value="{$totalmoney}" />
+            </p>
+            <p>寄送至:{$addr.area}{$addr.area}</p>
+            <p>收货人：{$addr.name}&nbsp;&nbsp;{$addr.tel}</p>
+        </div>
+        <div class="two-btn">
+            <a href="{:U('Home/Cart/lst')}"><input type="button" value="返回购物车" class="two-btn1"></a>
+            <input type="submit" value="提交订单" class="two-btn2">
+        </div>
+    </form>
+     </div>
+     <!--
+    <!-- 判断是否设置默认地址和是否选择配送方式 -->
+    <!--
+     <script type="text/javascript">
+        var address="{$addrTag}";
+       if (!address) {
+          alert('请设置默认地址');
+          window.location.href='__MODULE__/Address/address';
+       };
+
+        function checkform(){
+     
+      var post_method=document.getElementsByName('post_method');
+      var flag=false;
+      for(i=0;i<post_method.length;i++){
+          if (post_method[i].checked) {
+              flag=true;
+          }
+      }
+      if (!flag) {
+          alert('请选择配送方式！');
+          return false;
+      }
+      var pay_method=document.getElementsByName('pay_method');
+      var flag1=false;
+      for(i=0;i<pay_method.length;i++){
+          if (pay_method[i].checked) {
+              flag1=true;
+          }
+      }
+      var form=document.getElementById('orderform');
+      form.submit();
+
+  }
+     </script>
+     -->
+<include file="Public:footer"/>
